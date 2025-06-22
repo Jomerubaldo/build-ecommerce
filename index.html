@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body class="bg-gradient-to-r from-purple-800 via-violet-900 to-purple-800 text-white">
+  <!--to adjust the image from y axes used flex flex-col gap-10-->
+  <div class="min-h-screen px-6 py-3 flex flex-col gap-10 md:px-10">
+    <header class="flex justify-between">
+      <a href="#" class="flex items-center">
+        <h1 class="text-4xl font-bold">Plato</h1>
+      </a>
+      <div class="lg:hidden">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+    </header>
+
+    <main>
+      <!--use flex justify-center because if the screen is goto wider the img is crash-->
+      <div class="flex justify-center">
+        <!--dont use pt-10 to adjust the image because its overflow the space-->
+        <img src="/images/plato.jpg" alt="plato" class="outline-white outline shadow-2xl shadow-black" />
+      </div>
+      <div class="space-y-6 mt-16">
+        <!--leading-tight is for spacing the letters and organize-->
+        <div class="text-7xl font-bold leading-tight">
+          <h1>The Philosophy<h1>
+              <h1>of Healty Meals</h1>
+        </div>
+        <p>Plato's views on meals and food, as explored in his dialogues, particularly the Republic, center on the idea
+          of moderation and its connection to virtue and a well-ordered soul. He distinguishes between necessary`
+          appetites (like eating to survive) and unnecessary appetites (like excessive indulgence in food or drink). For
+          Plato, a moderate diet, focused on simple, healthy foods, is crucial for cultivating a rational and virtuous
+          life.</p>
+        <form action="" class="flex flex-col gap-2 md:flex-row md:gap-0">
+          <!--px-4 and px-3 is adjustment automatic for text inside the placeholder-->
+          <input type="text" placeholder="Enter City"
+            class="max-md:rounded-md md:rounded-l-md px-4 py-3 bg-white text-black outline-none md:w-80">
+          <!--whitespace-nowrap is new to me so this is a prevent text to newline its like a fixed-->
+          <button
+            class="bg-green-400 px-4 py-3 max-md:rounded-md md:rounded-r-md rounded-r-md text-black font-medium whitespace-nowrap">Find
+            Your
+            Office</button>
+        </form>
+        <div class="flex flex-col gap-4 py-8">
+          <p class="font-semibold">Contacts</p>
+          <ul class="flex gap-6">
+            <li><i class="fa-brands fa-square-facebook fa-2x"></i></li>
+            <li><i class="fa-solid fa-square-phone fa-2x"></i></li>
+            <li><i class="fa-brands fa-square-x-twitter fa-2x"></i></li>
+            <li><i class="fa-brands fa-square-instagram fa-2x"></i></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+<script src="/index.js"></script>
+
+</html>
