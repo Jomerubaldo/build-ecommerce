@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -18,18 +18,29 @@
       <a href="#" class="flex items-center">
         <h1 class="text-4xl font-bold">Plato</h1>
       </a>
+      <ul class="hidden lg:flex lg:items-center lg:gap-10 lg:text-lg lg:font-medium">
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Offerings</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+      <div class="hidden lg:flex lg:items-center lg:gap-10 lg:text-lg lg:font-medium">
+        <a href="#">Login</a>
+        <button class="bg-green-400 px-2 py-1 font-medium rounded-md">Register</button>
+      </div>
       <div class="lg:hidden">
         <i class="fa-solid fa-bars fa-2x"></i>
       </div>
     </header>
 
-    <main>
+    <main class="lg:flex">
       <!--use flex justify-center because if the screen is goto wider the img is crash-->
-      <div class="flex justify-center">
+      <div class="flex justify-center lg:flex-1 lg:order-2 lg:justify-end">
         <!--dont use pt-10 to adjust the image because its overflow the space-->
-        <img src="/images/plato.jpg" alt="plato" class="outline-white outline shadow-2xl shadow-black" />
+        <img src="/images/plato.jpg" alt="plato"
+          class="outline-white outline shadow-2xl shadow-black lg:h-[600px] lg:w-[600px] lg:rounded-full" />
       </div>
-      <div class="space-y-6 mt-16">
+      <div class="space-y-6 mt-16 lg:flex-1 order-1 lg:mt-32">
         <!--leading-tight is for spacing the letters and organize-->
         <div class="text-7xl font-bold leading-tight">
           <h1>The Philosophy<h1>
