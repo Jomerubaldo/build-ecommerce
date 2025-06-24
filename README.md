@@ -1,6 +1,7 @@
 # build-ecommerce
 
+### This is my first time Creating Ecommerce Website.
 
-### This is my first time creating ecommerce
+## Tech Stack: HTML TAILWINDCSS AND JAVASCRIPT.
 
-## il used tech stack is HTML TAILWINDCSS AND JAVASCRIPT
+### Not done yet.
