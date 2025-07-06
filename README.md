@@ -1,7 +1,5 @@
-# build-ecommerce
+# Responsive Website
 
-### This is my first time Creating Ecommerce Website.
+## Tech-Stack: HTML TailwindCSS and Javscript
 
-## Tech Stack: HTML TAILWINDCSS AND JAVASCRIPT.
-
-### Not done yet.
+## Status: Still working
